@@ -32,10 +32,12 @@ function copyToClickboard(text) {
 
 
 function showSnackBar() {
-    const sb = document.getElementById("snackbar");
-    sb.className = "show";
-    setTimeout(()=>{ sb.className = sb.className.replace("show", ""); }, 3000);
-  }
+    const sb = document.getElementById('snackbar')
+    sb.className = 'show'
+    setTimeout(() => {
+        sb.className = sb.className.replace('show', '')
+    }, 3000)
+}
 
 
 function setTextColor(text, color) {

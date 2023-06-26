@@ -9,16 +9,6 @@ document.addEventListener('keydown', event => {
 })
 
 
-document.addEventListener('keydown', event => {
-    if (event.code.toLowerCase() == 'keyl') {
-        
-    } else if (event.code.toLowerCase() == 'keyr') {
-        setRandomColors()
-        location.reload()
-    }
-})
-
-
 document.addEventListener('click', event => {
     const type = event.target.dataset.type
 
